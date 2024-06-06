@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class Banco {
-    private static List<Conta> contas = new ArrayList<Conta>();
+    private static List<Conta> contas = new ArrayList<>();
 
     public void addConta (Conta conta) {
         contas.add(conta);

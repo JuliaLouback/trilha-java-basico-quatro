@@ -61,7 +61,8 @@ public abstract class Conta implements IConta {
                 "Agencia = " + agencia +
                 "\tNumero = " + numero +
                 "\tSaldo = " + saldo +
-                "\tCliente = " + cliente.getNome();
+                "\tCliente = " + cliente.getNome() +
+                " -- CPF = " + cliente.getCpf();
     }
 
     @Override

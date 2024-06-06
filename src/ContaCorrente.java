@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class ContaCorrente extends Conta {
 
     public ContaCorrente(Cliente cliente) {
